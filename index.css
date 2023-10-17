@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFCD9E;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+
+}
+
+.content-left {
+    width: 30%;
+    position: relative;
+    top: 15%;
+    left: 10%;
+}
+
+.content-left h1 {
+    font-size: 36px;
+    color: #282828;
+    line-height: 45px;
+    margin-bottom: 15px;
+}
+
+.content-left .para {
+    color: #484848;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.content-left h4 {
+    color: #282828;
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+.content-left input {
+    padding: 10px;
+    font-size: 16px;
+    color: #888;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.content-left button {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background-color: #282828;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content-left p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.image-right {
+    width: 70%;
+    position: relative;
+    top: 12%;
+    left: 30%;
+}
+
+/** footer */
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #282828;
+    margin-top: 190px;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.left-list {
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.footer .left-list ul li {
+    list-style: none;
+    margin-bottom: 7px;
+    font-weight: 400;
+}
+
+
+.right-list {
+    margin-top: 35px;
+    text-align: end;
+    cursor: pointer;
+}
+
+.footer .right-list ul li {
+    list-style: none;
+    margin-bottom: 7px;
+    font-weight: 400;
+}
+
+.social-media {
+    display: flex;
+    justify-content: end;
+}
